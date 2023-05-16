@@ -1,4 +1,4 @@
-package com.example.myapplication
+package com.roopa.inventoryapplication
 
 import android.content.Context
 import android.content.Intent
@@ -8,7 +8,6 @@ import android.view.ViewGroup
 import android.widget.*
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import com.google.firebase.database.DataSnapshot
 import com.google.firebase.database.FirebaseDatabase
 
 

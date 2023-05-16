@@ -1,4 +1,4 @@
-package com.example.myapplication
+package com.roopa.inventoryapplication
 
 class ShopAppData {
 

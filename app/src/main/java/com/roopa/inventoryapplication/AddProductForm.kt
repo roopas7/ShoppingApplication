@@ -1,13 +1,11 @@
-package com.example.myapplication
+package com.roopa.inventoryapplication
 
-import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
 import com.google.firebase.FirebaseApp
 import com.google.firebase.database.*
-import com.google.firebase.database.ktx.getValue
 
 class AddProductForm : AppCompatActivity() {
 
