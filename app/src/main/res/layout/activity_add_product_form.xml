@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddProductForm"
+    android:background="#AD2531"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_margin="30dp">
+
+
+        <EditText
+            android:id="@+id/add_product_Id"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="25dp"
+            android:paddingLeft="8dp"
+            android:background="@drawable/border"
+            android:hint="Product ID"
+            />
+        <EditText
+            android:id="@+id/add_name_Id"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="25dp"
+            android:hint="Name of the product"
+            android:background="@drawable/border"
+            android:paddingLeft="8dp"
+
+
+            />
+
+        <EditText
+            android:id="@+id/add_desc_Id"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="25dp"
+            android:hint="Add description here!!"
+            android:background="@drawable/border"
+            android:paddingLeft="8dp"
+
+
+            />
+
+        <EditText
+            android:hint="Add image url"
+            android:id="@+id/add_image_id"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="50dp"
+            android:background="@drawable/border"
+            android:paddingLeft="8dp"
+
+
+            />
+        <Button
+            android:id="@+id/add_btn_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:text="Save Data"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:onClick="addProduct"
+            />
+
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
